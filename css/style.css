@@ -419,6 +419,29 @@ a {
 	border-radius: 10px;
 	margin: 0 auto;
 }
+.desc {
+	background: radial-gradient(
+		100% 100% at 50% 0% rgba(76, 80, 82, 0.1) 0%,
+		rgba(95, 98, 101, 0.1) 100%
+	);
+	padding: 20px 0;
+}
+.desc-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.desc-text {
+	color: #435766;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	flex: 0 0 50%;
+}
+.desc-image {
+	flex: 0 0 50%;
+}
 
 @media (max-width: 850px) {
 	.trailer-video {
